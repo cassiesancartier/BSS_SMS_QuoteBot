@@ -40,18 +40,13 @@ def sms():
 
 def quotes():
     reasons = [
-            'Funny quote of the hour: The quickest way to double your money is to fold it in half and put it back in your pocket.',
-            'Funny quote of the hour: When Life Gives You Questions, Google has Answers',
-            'Funny quote of the hour: If at first you don\'t succeed, call it version 1.0.',
-            'Funny quote of the hour: Microsoft - You\'ve got questions. We\'ve got dancing paperclips.',
-            'Funny quote of the hour: There are 10 types of people in the world: those who understand binary, and those who don\'t.',
-            'Funny quote of the hour: I\'m not anti-social; I\'m just not user friendly',
-            'Funny quote of the hour: My software never has bugs. It just develops random features.',
-            'Funny quote of the hour: I would love to change the world, but they won\'t give me the source code.',
-            'Funny quote of the hour: Be nice to the nerds, you will probably end up working for them.',
-            'Funny quote of the hour: Artificial Intelligence is no match for Natural Stupidity.',
-            'Funny quote of the hour: A computer lets you make more mistakes faster than any invention in human history - with the possible exceptions of handguns and tequila.',
-            'Funny quote of the hour: In a world without fences and walls, who needs Gates and Windows?']
+            'Comic of the day: xkcd.com/149',
+            'Comic of the day: xkcd.com/244',
+            'Comic of the day: xkcd.com/616',
+            'Comic of the day: http://theoatmeal.com/comics/dog_how_see',
+            'Comic of the day: http://theoatmeal.com/comics/tesla',
+            'Comic of the day: http://theoatmeal.com/comics/wwddd',
+            'Comic of the day: http://xkcd.com/181/',]
     return choice(reasons)
 
 if __name__ == '__main__':
